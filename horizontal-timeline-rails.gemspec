@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "horizontal-timeline-rails"
   spec.version       = Horizontal::Timeline::Rails::VERSION
   spec.authors       = ["morneL"]
-  spec.email         = ["lotzemorne@gmail.com"]
+  spec.email         = ["morne.lotze@getsmarter.com"]
 
   spec.summary       = %q{Horizontal Timeline for Rails >= 3.1}
   spec.description   = %q{A wrapper for Horizontal Timeline in the Rails asset pipeline}
