@@ -1,5 +1,30 @@
 /* -------------------------------- 
 
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Fira Sans", sans-serif;
+  color: #383838;
+  background-color: #f8f8f8;
+}
+
+a {
+  color: #7b9d6f;
+  text-decoration: none;
+}
+
+/* -------------------------------- 
+
 Main Components 
 
 -------------------------------- */
@@ -186,7 +211,7 @@ Main Components
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(../img/cd-arrow.svg) no-repeat 0 0;
+  background: url(/assets/cd-arrow.svg) no-repeat 0 0;
 }
 .cd-timeline-navigation a.prev {
   left: 0;
